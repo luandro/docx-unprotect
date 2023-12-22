@@ -1,0 +1,17 @@
+{
+  "name": "docx-unprotect",
+  "version": "1.0.0",
+  "description": "A Node.js script to remove protection from DOCX files",
+  "main": "index.js",
+  "bin": {
+    "docx-unprotect": "./index.js"
+  },
+  "scripts": {
+    "start": "node unprotectDocx.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "jszip": "^3.7.1",
+    "xml2js": "^0.4.23"
+  }
+}
